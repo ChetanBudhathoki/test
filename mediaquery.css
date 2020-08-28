@@ -1,0 +1,295 @@
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navigation{
+        /* border: 2px solid black; */
+        height: 40px;
+    }
+    .navigation_container{
+       
+    }
+    .navigation_container_logo{
+        /* border: 2px solid red; */
+        display: inline-block;
+        margin-top: 12px;
+        margin-left: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #5E81FF;
+    }
+    .navigations{
+        margin: 10px 7px;
+        /* padding: 2px 10px; */
+        /* border: 2px solid red; */
+        display: inline-block;
+        float: right;
+    }
+    .navigations_link{
+        margin-right: 6px;
+        padding: 0px 2px;
+        /* font-size: 1.3rem; */
+        font-size: 10px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        color: #5E81FF;
+    }
+
+
+
+
+    /* section for hero */
+    .hero{
+        /* margin: 0 20px; */
+     /* border: 2px solid green; */
+     height: 38vh;
+     width: 100%;
+    }
+    .hero_container{
+        /* margin: 0 10px; */
+        position: relative;
+       /* border: 2px solid blue; */
+       height: 100%;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       overflow: hidden;
+    }
+    .hero_container_box{
+     /* border: 2px solid blueviolet; */
+     width: 100%;
+     height: 100%;
+     display: flex;
+     /* align-items: center; */
+     justify-content: flex-start;
+     flex-direction: column;
+     /* width: 100%; */
+     /* height: 600px; */
+     /* text-align: center; */
+     /* align-items: center; */
+    }
+    .heroes{
+        /* border: 2px solid red; */
+        height: 40px;
+        width: 100%;
+        /* height: 25%; */
+        /* width: 50%; */
+        /* height: 200px; */
+    }
+    .hero_title{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 3rem; */
+
+    }
+    span h1{
+        /* font-style: italic;
+        color: blue; */
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        font-style: italic;
+        color:#5E81FF ;
+    }
+    #career{
+        margin-left: 13px;
+        color:#5E81FF ;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+    /* .hero_title_left{
+       border: 2px solid black;
+       width: 300px;
+    }
+    .hero_title_right{
+        border: 2px solid black;
+        width: 300px;
+    } */
+    .hero_sub_title{
+        /* height: 70px; */
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1.7rem; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    }
+    .hero_disclaimer{
+        /* height: 90px; */
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1.4rem; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    }
+    .buttons{
+        margin-top: 0px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80px; */
+    }
+    .buttons a{
+       display: inline-block;
+           /* padding: 30px 5px; */
+           /* padding-right: 20px; */
+           /* margin-top: 30px; */
+           /* border: 2px solid red; */
+           font-size: 10px;
+           height: 33px;
+           width: 104px;
+           border-radius: 53px;
+           padding: 10px 23px;
+           text-decoration: none;
+           color: #fff;
+           font-family: 'Lato', sans-serif;
+           /* background-color: #2c3e50; */
+           background-color: #577bff;
+           transition: background-color 0.3s;
+           transition: color 0.4s;
+    }
+    .buttons a:hover{
+       background-color: transparent;
+       background-color: #5E81FF;
+       color: #000000;
+           /* border: 2px solid wheat; */
+    }
+    
+
+    .hand{
+        /* border: 2px solid red; */
+        position: absolute;
+        height: 165px;
+    width: 80px;
+    top: 122px;
+    left: 31px;
+        transform: rotate(-5deg);
+        /* object-fit: cover; */
+        /* background-image: url('hand edited.png');
+        background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover; */
+    }
+    .hand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hand img{
+        height: 162px;
+        width: 172px;
+    }
+    
+
+
+
+    /* this is for the roadmap section */
+   
+    .roadmap{
+        height: 63vh;
+        /* border: 2px solid red; */
+        }
+        .roadmap_container{
+        /* border: 2px solid blue; */
+        height: 100%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        }
+        .roadmap_container_image_box{
+           /* border: 2px solid red; */
+           background-image: url('path.png');
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: contain;
+           height: 362px;
+           width: 900px;
+           border-radius: 90px;
+           box-shadow: 12px 10px 15px rgb(192, 183, 183),-10px -10px 11px #ffffff73;
+        }
+
+
+
+         /* this is for the section steps */
+         .steps{
+            height: 80vh;
+         /* border: 2px solid red; */
+         }
+         .steps_container{
+            /* border: 2px solid blue; */
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         }
+         .steps_container_image_box{
+            /* border: 2px solid red; */
+            height: 457px;
+            width: 900px;
+            border-radius: 90px;
+         }
+         .steps_container_image_box_title{
+            /* border: 2px solid red; */
+            height: 10%;
+            /* text-align: center; */
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: 'Lato', sans-serif;
+           font-size: 61px;
+           font-weight: 900;
+           color: #5E81FF;
+         }
+         .steps_container_image_box_image{
+            /* border: 2px solid red; */
+            height: 90%;
+            background-image: url('steps.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+         }
+    
+
+
+
+         
+       /* this is  for video play section */
+       
+       .video{
+        /* border: 2px solid blue; */
+        height: 95vh;
+        width: 100%;
+         }
+         .video_container{
+         /* border: 2px solid black; */
+         height: 100%;
+         width: 100%;
+         }
+         .video_container_title{
+         /* border: 2px solid red; */
+         height: 10%;
+         text-align: center;
+         font-family: 'Lato', sans-serif;
+            font-size: 39px;
+            font-weight: 900;
+            color: #5E81FF;;
+         }
+         .video_container_video_box{
+         /* border: 2px solid red; */
+         height: 90%;
+         }
+         .twins{
+             height: 100%;
+             width: 100%;
+         }
+   
+}
